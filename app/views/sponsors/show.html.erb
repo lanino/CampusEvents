@@ -1,3 +1,16 @@
+<% content_for(:sidebar) do %>
+<h3>
+	Custom Title for Sponsor
+</h3>
+<p>
+	<% render(partial: "sponsor_events", object: @sponsor) %>
+</p>
+
+<% end %>
+
+
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
